@@ -30,7 +30,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
           const message = node.querySelector('.newbonklobby_chat_msg_txt').innerHTML;
           // Do something with the message, e.g., check if it contains the word "sus".
           console.log(`message ${message} found`)
-          if(message.toLowerCase().contains('sus')) {
+          if(message.toLowerCase().includes('sus')) {
             gokuHowl.play();
             console.log('"sus" found');
           }
