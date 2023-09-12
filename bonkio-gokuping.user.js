@@ -6,7 +6,7 @@
 // @author       danik0011
 // @icon         https://thirtydollar.website/icons/ultrainstinct.png
 // @match        https://bonk.io/gameframe-release.html
-// @run-at       document-start
+// @run-at       document-idle
 // @grant        none
 // ==/UserScript==
 
