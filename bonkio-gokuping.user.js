@@ -13,10 +13,10 @@
 (function() {
   'use strict';
   let gokuHowl = new Howl({src: "https://thirtydollar.website/sounds/ultrainstinct.wav"});
+  gokuHowl.play();
   setTimeout(function(){
     gokuHowl.play();
   }, 10000);
-  gokuHowl.play();
 //  var observer = new MutationObserver(function(mutations) {
 //    if (document.contains(myElement)) { // example use of the mutation observer
 //      console.log("It's in the DOM!"); // no idea how to use that
